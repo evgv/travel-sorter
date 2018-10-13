@@ -25,19 +25,3 @@ The list should be defined in a format that's compatible with the input format.
 The API is to be an internal PHP API so it will only communicate with other parts of a PHP application, not
 server to server, nor server to client. Use PHP-doc to document the input and output your API accepts /
 returns.
-
-- Use object oriented PHP5 for the implementation.
-- Do not use any 3rd party framework. Start all code from scratch.
-- The structure of the code should be extendable to make building in support for any means of
-transportation / extra information required about a specific type of transportation easy.
-- The implementation of your sorting algorithm should work with any set of boarding passes, as long as
-there is always an unbroken chain between all the legs of the trip. Ie. it's one continuous trip with no
-interruptions.
-- The algorithm doesn't need to consider that departure / arrival are in the correct order. In fact there is no
-information about any such times on the boarding passes. It is just assumed that your next connection is
-waiting for you when you arrive at a destination.
-- The algorithm should have the lowest possible order of complexity (Big O notation) you could think of.
-- Although we always produce all software in teams in Youwe and believe this working as a team is the best
-way to tackle problems, since this task is meant to be an assessment of your personal skills, please refrain
-from asking friends / cooperating with other people or checking the internet (except PHP manual) while
-solving this task.
