@@ -1,7 +1,10 @@
 # People’s Travel Sorter 
-Maximum amount of time allowed: 2 hours
 
-### Task
+```
+Maximum amount of time allowed: 2 hours
+```
+
+## Task
 
 You are given a stack of boarding cards for various transportations that will take you from a point A to
 point B via several stops on the way. All of the boarding cards are out of order and you don't know where
@@ -25,3 +28,30 @@ The list should be defined in a format that's compatible with the input format.
 The API is to be an internal PHP API so it will only communicate with other parts of a PHP application, not
 server to server, nor server to client. Use PHP-doc to document the input and output your API accepts /
 returns.
+
+
+## Installation
+Use composer :
+
+```
+git clone git@github.com:evgv/travel-sorter.git
+cd trip-sorter
+composer install
+```
+
+## Run
+The details about boarding cards is in <b>data.php</b>
+
+```
+php index.php
+``
+
+
+## TODO
+[ ] Add some validation
+[ ] Add some TDD using PHPUnit. =
+
+## More examples
+ - https://github.com/rmkpatchaa/trip-sorter
+ - https://github.com/irfan/tripsorter
+
