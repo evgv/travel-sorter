@@ -44,11 +44,11 @@ The details about boarding cards is in <b>data.php</b>
 
 ```shell
 php index.php
-``
+```
 
 ## Todo
  - Add some validation
- - Add some TDD using PHPUnit. =
+ - Add some TDD using PHPUnit.
 
 ## MMore solutions
  - https://github.com/rmkpatchaa/trip-sorter
