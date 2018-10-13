@@ -33,7 +33,7 @@ returns.
 ## Installation
 Use composer :
 
-```
+```shell
 git clone git@github.com:evgv/travel-sorter.git
 cd trip-sorter
 composer install
@@ -42,16 +42,15 @@ composer install
 ## Run
 The details about boarding cards is in <b>data.php</b>
 
-```
+```shell
 php index.php
 ``
 
+## Todo
+ - Add some validation
+ - Add some TDD using PHPUnit. =
 
-## TODO
-[ ] Add some validation
-[ ] Add some TDD using PHPUnit. =
-
-## More examples
+## MMore solutions
  - https://github.com/rmkpatchaa/trip-sorter
  - https://github.com/irfan/tripsorter
 
