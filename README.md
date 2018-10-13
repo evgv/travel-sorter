@@ -50,7 +50,7 @@ php index.php
  - Add some validation
  - Add some TDD using PHPUnit.
 
-## MMore solutions
+## More solutions
  - https://github.com/rmkpatchaa/trip-sorter
  - https://github.com/irfan/tripsorter
 
