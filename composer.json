@@ -1,0 +1,19 @@
+{
+    "name": "evgv/travel-sorter",
+    "description": "Travel sorter script",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugene Zubkov",
+            "email": "evgvzubkoff@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}
