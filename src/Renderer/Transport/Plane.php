@@ -43,7 +43,7 @@ class Plane extends \src\Renderer\Transport
         );
         
         if (empty($item['Baggage'])) {
-            $string .= ' Baggage drop at ticket counter 344.';
+            $string .= sprintf(' Baggage drop at ticket counter %s.', $item['Baggage']);
         } else {
             $string .= ' Baggage will we automatically transferred from your last leg.';
         }

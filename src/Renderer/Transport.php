@@ -3,7 +3,7 @@
 namespace src\Renderer;
 
 /**
- * Class Transport
+ * Abstract class Transport
  *
  * @package src\Renderer
  */
